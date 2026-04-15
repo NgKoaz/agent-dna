@@ -17,10 +17,9 @@ List the technical approach taken.
 
 ### 3. QUÁ TRÌNH THỰC HIỆN
 Detail the actual steps taken and the time spent on each.
-- Step 1: Description (Estimated time)
-- Step 2: Description (Estimated time)
+- Step 1: Description 
+- Step 2: Description 
 - ...
-- **Total Time: X.X hours**
 
 ### 4. FILE CHANGES
 List all files modified, created, or deleted.

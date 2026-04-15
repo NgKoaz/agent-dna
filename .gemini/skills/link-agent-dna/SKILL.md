@@ -12,10 +12,10 @@ Trên môi trường Windows, việc tạo Symbolic Link cho thư mục thườn
 3. **Execute Link**: Chạy các lệnh PowerShell sau để tạo liên kết:
    ```powershell
    # Tạo link cho .github
-   New-Item -ItemType Junction -Path ".github" -Target "D:\agent-dna\.github"
+   New-Item -ItemType SymbolicLink -Path ".github" -Target "D:\agent-dna\.github"
 
    # Tạo link cho .gemini
-   New-Item -ItemType Junction -Path ".gemini" -Target "D:\agent-dna\.gemini"
+   New-Item -ItemType SymbolicLink -Path ".gemini" -Target "D:\agent-dna\.gemini"
    ```
 4. **Git Ignore**: Đảm bảo đã cập nhật `.gitignore` để tránh commit các thư mục link này vào repo riêng của dự án:
    ```text
